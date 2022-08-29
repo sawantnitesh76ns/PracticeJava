@@ -3,7 +3,7 @@ import java.util.*;
 class Solution {
 
     public static void main(String[] args) {
-        int[] list={3,2,1};
+        int[] list={1,-2147483648,2};
         int result = thirdMax(list);
         System.out.println(result);
     }
@@ -34,4 +34,30 @@ class Solution {
         else 
             return t;
     }
+
+    // Another Solution
+
+    // public static int thirdMax(int[] nums) {
+    //     Arrays.sort(nums);
+
+    //     int n = nums.length;
+        
+    //     if(n < 3) {
+    //         return nums[n -1];
+    //     }
+
+    //     int k = 1;
+    //     while(k < 3 && n > 1) {
+    //         n--;
+    //         if(nums[n] != nums[n-1]) {
+    //             k++;
+    //         }
+    //     }
+
+    //     if(k < 3) {
+    //         return nums[n-1];
+    //     }
+
+    //     return nums[n-1];
+    // }
 }
