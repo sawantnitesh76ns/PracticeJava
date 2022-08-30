@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class ThirdMax {
 
     public static void main(String[] args) {
         int[] list={1,-2147483648,2};
