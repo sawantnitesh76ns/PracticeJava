@@ -1,5 +1,3 @@
-import java.util.*;
-
 class ThirdMax {
 
     public static void main(String[] args) {
